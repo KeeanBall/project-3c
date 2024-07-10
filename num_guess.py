@@ -3,7 +3,7 @@ num = int(input())
 guessed_right = False
 print("Enter your guess.")
 guess = int(input())
-num_guesses = 1
+num_guesses = 0
 while not guessed_right:
     if guess > num:
         print("Too high - try again:")
