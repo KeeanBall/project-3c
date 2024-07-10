@@ -14,4 +14,7 @@ while not guessed_right:
     else:
         guessed_right = True
     num_guesses += 1
-print(f"You guessed it in {num_guesses} tries.")
+if num_guesses == 1:
+    print("You guessed it in 1 try.")
+else:
+    print(f"You guessed it in {num_guesses} tries.")
